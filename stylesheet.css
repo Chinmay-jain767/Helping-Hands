@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.main-head {
+    margin-top: 5.5em;
+    background-image: url(./img/header-bg-1.jpg);
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+.intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+.intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.info-text {
+    margin-top: 5em;
+    font-family: 'Montserrat';
+    line-height: 1.75;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #212529;
+}
+#text {
+    margin-top: 0 !important;
+    text-align: left !important;
+}
+.impact {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat'
+
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+main {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 20px 20px;
+  background: #FFF;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px rgba(0.2,0.2,0.2,0.2);
+}
+
+#bar-chart {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.report {
+    width: 80%;
+    font-family: 'Montserrat';
+    padding: 2%;
+    margin-bottom: 10%;
+    color: #fff !important;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.report:hover {
+    color: #fff;
+    background-color: #474d52;
+}
+
+@media screen and (max-width: 991px) {
+    #text {
+        text-align: center !important;
+    }
+}
+
